@@ -1,12 +1,12 @@
-# WebSockets Explained
+## WebSockets Explained
 
-This repository provides a detailed explanation of WebSockets, their functionality, and how they compare to other protocols like HTTP polling and HTTP long polling. It also outlines the scenarios where WebSockets are most applicable and efficient.
+
 ---
 
-## Overview
-
-### What is WebSocket?
+## What is WebSocket?
 WebSocket is a protocol designed for **real-time, bi-directional communication** between clients (e.g., web browsers) and servers. It uses a single **TCP connection** to enable both parties to send and receive data simultaneously, making it efficient for interactive and real-time applications.
+
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/9d07a329-fd35-4cf6-8d00-44df63e36583">
 
 ---
 
@@ -113,6 +113,8 @@ DragonflyDB serves as a high-performance, drop-in replacement for Redis.
     - WebSocket facilitates direct real-time communication between clients and the server.
 2. **Multiple Servers**:
     - DragonflyDB enables synchronization across multiple server instances using its Pub/Sub mechanism.
+  
+<img width="782" alt="image" src="https://github.com/user-attachments/assets/fef4ddfa-fcd7-4bd3-a0aa-6f1aff93a347">
 
 ---
 
