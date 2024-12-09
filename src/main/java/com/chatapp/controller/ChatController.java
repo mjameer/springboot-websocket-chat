@@ -8,6 +8,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.listener.ChannelTopic;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.Payload;
+import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.messaging.simp.SimpMessageHeaderAccessor;
 import org.springframework.stereotype.Controller;
 
@@ -41,4 +42,12 @@ public class ChatController {
         redisTemplate.convertAndSend(channelTopic.getTopic(), chatMessage);
         return chatMessage;
     }
+
+    // Regular use case
+/*    ///app/sendMessage
+    @MessageMapping("/chat.sendMessage")
+    @SendTo("/topic/public/notifications")
+    public String sendMessage(String message){
+        return message;
+    }*/
 }
