@@ -180,3 +180,5 @@ mvn spring-boot:run -Dspring-boot.run.profiles=instance2
 
 - https://www.youtube.com/watch?v=pnj3Jbho5Ck
 - https://www.youtube.com/watch?v=Cj7qqq9L1kU&t=2557s
+- [Private message](https://www.youtube.com/watch?v=QNMItUBPxaI)
+- https://github.com/Java-Techie-jt/notification-system
