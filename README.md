@@ -104,7 +104,8 @@ DragonflyDB serves as a high-performance, drop-in replacement for Redis.
 - **WebSocket with STOMP Protocol**
 - **DragonflyDB (compatible with Redis APIs)**
 - **SockJS** (fallback for WebSocket)
-- **Docker Compose** (for DragonflyDB setup)- **Thymeleaf** (for simple UI)
+- **Docker Compose** (for DragonflyDB setup)
+- **Thymeleaf** (for simple UI)
 
 ---
 
